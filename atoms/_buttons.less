@@ -1,0 +1,52 @@
+﻿// # atoms/_buttons.less
+
+/**
+ * Theme based style for all buttons within the application.
+ * NOTE: styles in an atom should almost never be attached to an HTML element itself
+ */
+
+// base class ".btn" taken from bootstrap
+.btn {
+    // user hovers over a button
+    &:hover { }
+    // user clicks a button
+    &:active { }
+    // used for on/off toggle of a button
+    &.active { }
+    // button is disabled
+    &[disabled] { }
+
+
+    > .btn-primary {
+        &:hover { }
+        &:active { }
+        &.active { }
+        &[disabled] { }
+    }
+
+    > .btn-secondary {
+        &:hover { }
+        &:active { }
+        &.active { }
+        &[disabled] { }
+    }
+
+    > .btn-tertiary {
+        &:hover { }
+        &:active { }
+        &.active { }
+        &[disabled] { }
+    }
+
+    // buttons that should display as hyperlinks
+    > .btn-text,
+    // buttons that only contain an icon
+    > .btn-icon {
+
+        &:hover { }
+        &:active { }
+        &.active { }
+        &[disabled] { }
+    }
+
+}
