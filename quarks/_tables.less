@@ -4,38 +4,33 @@
  * Default global styles for <table> elements
  */
 
-.table {
+table {
 
-    //default table theme
-    &.table-default {
+    > thead > tr {
 
-        > thead > tr {
-
-            > th {
-            }
-
-            > td {
-            }
+        > th {
         }
 
-        > tbody > tr {
+        > td {
+        }
+    }
 
+    > tbody > tr {
+
+        
+        &.tr-even {
+
+        }
+
+        &.tr-odd {
+
+        }
+
+        > td {
             
-            &.tr-even {
-
-            }
-
-            &.tr-odd {
-
-            }
-
-            > td {
+            > a {
 
 
-                > a {
-
-
-                }
             }
         }
     }
