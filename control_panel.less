@@ -1,15 +1,16 @@
 /* ==========================================================================
-   ATOMIC FRAMEWORK
+   CUSTOM ATOMIC-ish CSS FRAMEWORK
    ========================================================================== */
 
 /**
- * This is the control panel where all of the quarks, atoms and molecules are imported.
+ * This is the control panel where all less files are imported.
  */
 
-/* Helpers
+/* Includes
 ========================================================================== */
 /*
- * Less imports that are ment to be added to actual less stylesheets
+ * Less imports that are ment to be added to other less stylesheets (ex. variables, mixins, functions, etc.)
+ * NOTE: do not add any style definitions to these files.
  */
 
 @import "./helpers/_colors.less";
@@ -19,7 +20,7 @@
 /* Utilities
 ========================================================================== */
 /*
- * Global classes, mixins and styles that can be used anywhere and at any time.
+ * Global styles that can be used anywhere and at any time.
  */
 
 @import "./utilities/_backgrounds.less";
@@ -29,7 +30,7 @@
 @import "./utilities/_positions.less";
 @import "./utilities/_sizes.less";
 
-/* Quarks
+/* Core
 ========================================================================== */
 /*
  * Styles reserved for default HTML elements only. Default paragraphs, links, lists and micros. Style
@@ -44,7 +45,7 @@
 @import "./quarks/_tables.less";
 
 
-/* Atoms
+/* Componenets
 ========================================================================== */
 /*
  * CSS objects that can be extended from and into other elements of the site. Think of these as
@@ -61,15 +62,5 @@
 @import "./atoms/_rules.less";
 @import "./atoms/_table_styles.less";
 @import "./atoms/_wrapper.less";
-
-
-/* Molecules
-========================================================================== */
-/*
- * Sometimes we need one-off structures, such as a banner or navigation element or footer, that we
- * don’t intend to replicate. This is where we can combine multiple quarks and atoms, without
- * interfering with any of our global styles.
- */
-
 
 

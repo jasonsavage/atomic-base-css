@@ -1,4 +1,4 @@
-# atomic-base-css | atoms
+# atomic-base-css | components
 
 http://www.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/
 

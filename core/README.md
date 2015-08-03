@@ -1,4 +1,4 @@
-# atomic-base-css | quarks
+# atomic-base-css | core (formerly quarks)
 
 http://www.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/
 
