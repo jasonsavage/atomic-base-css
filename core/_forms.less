@@ -7,6 +7,48 @@ form {
     .clearfix;
 }
 
+input, textarea, button, select {
+	margin: 0;
+	font-size: 100%;
+	line-height: normal;
+	vertical-align: baseline;
+}
+
+button,
+html input[type="button"], 
+input[type="reset"], 
+input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		 -o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+textarea {overflow: auto;}
+	
+::selection {
+	background: red;
+	color: white;
+}
+::-moz-selection {
+	background: red;
+	color: white;
+}
+
+img::selection {
+	background: transparent;
+}
+img::-moz-selection {
+	background: transparent;
+}
+
 //fix safari select
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     select {
