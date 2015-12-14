@@ -1,0 +1,50 @@
+//
+// Utility classes for miscellaneous styles
+//
+
+// Styles
+.cur,
+.cur-d { cursor: default; }
+.cur-a { cursor: auto; }
+.cur-p { cursor: pointer; }
+.cur-t { cursor: text; }
+
+// Clearfix
+.cf,
+.clearfix {
+    *zoom: 1;
+    &:before,
+    &:after { content: " "; display: table; }
+    &:after { clear: both; }
+}
+
+// Image Replace
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px; // IE 6/7 fallback
+
+    &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 100%;
+    }
+}
+a.ir {
+    display:block;
+    vertical-align: middle;
+}
+
+// Vertical Align
+.valign-m { vertical-align: middle; }
+.valign-t { vertical-align: top; }
+.valign-b { vertical-align: bottom; }
+
+// Center align element
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

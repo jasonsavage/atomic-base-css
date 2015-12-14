@@ -1,0 +1,5 @@
+.make-position(@prefix,@prop,@index) when (@index >= 0) {
+    @sel: ~"@{prefix}@{index}";
+    .@{sel} { @{prop}: @index*1px !important; }
+    .make-position(@prefix,@prop,@index - 5);
+}

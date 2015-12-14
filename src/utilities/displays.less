@@ -1,0 +1,63 @@
+//
+// Utility classes for setting the display state of elements
+// Naming Convention: .dsp-[style]-[value]
+//
+
+// Styles
+.no-dsp,
+.dsp-n { display: none; }
+
+// Display types
+.dsp-i { display: inline; }
+.dsp-ib { display: inline-block; }
+.dsp-b { display: block; }
+
+.dsp-h,
+.hidden { visibility: hidden; }
+
+.dsp-v,
+.visible { visibility: visible; }
+
+// Display types (uncommon)
+.dsp-tbl { display: table; }
+
+.dsp-flex { display: flex; }
+.dsp-iflex { display: inline-flex; }
+
+// Z-Index
+.dsp-no-z { z-index: auto; }
+.dsp-z-top { z-index: 1000; }
+.dsp-z-mid { z-index: 500; }
+.dsp-z-low { z-index: 100; }
+.dsp-z-back { z-index: -1; }
+
+// Opacity
+.dsp-no-opacity { -webkit-opacity: 1; filter: alpha(opacity=100); opacity: 1; }
+.dsp-opacity-80 { -webkit-opacity: 0.8; filter: alpha(opacity=80); opacity: 0.8; }
+.dsp-opacity-50 { -webkit-opacity: 0.5; filter: alpha(opacity=50); opacity: 0.5; }
+.dsp-opacity-10 { -webkit-opacity: 0.1; filter: alpha(opacity=10); opacity: 0.1; }
+
+//floats
+.dsp-no-float { float: none; }
+.dsp-float-r { float: right; }
+.dsp-float-l { float: left; }
+.dsp-float-c,
+.clear-float { clear: both; }
+
+// Overflow
+.dsp-ov-v { overflow: visible; }
+.dsp-ov-h { overflow: hidden; }
+.dsp-ov-s { overflow: scroll; }
+.dsp-ov-a { overflow: auto; }
+
+// Overflow X
+.dsp-ov-xv { overflow-x: visible; }
+.dsp-ov-xh { overflow-x: hidden; }
+.dsp-ov-xs { overflow-x: scroll; }
+.dsp-ov-xa { overflow-x: auto; }
+
+// Overflow Y
+.dsp-ov-yv { overflow-y: visible; }
+.dsp-ov-yh { overflow-y: hidden; }
+.dsp-ov-ys { overflow-y: scroll; }
+.dsp-ov-ya { overflow-y: auto; }

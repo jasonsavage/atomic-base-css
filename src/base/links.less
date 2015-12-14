@@ -1,0 +1,40 @@
+﻿//
+// Default global styles for all <a> elements.
+//
+
+// Styles
+a {
+
+	text-decoration:underline;
+	cursor:pointer;
+
+    // link that is unvisited
+    &:link {
+
+    }
+
+    // linke that has alrready been visited
+    &:visited {
+
+    }
+
+    // user hovers over a link
+    &:hover {
+        text-decoration:none;
+    }
+
+    //user clicks a link
+    &:active {
+
+    }
+
+    //external links
+    &[target="_blank"] {
+
+    }
+
+    &.disabled {
+        cursor: not-allowed;
+        .opacity(0.5);
+    }
+}
