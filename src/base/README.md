@@ -5,9 +5,12 @@ NOTE: you can cheat here for global elements like .containers, .styled-radio or 
 
 Example: 
 
-// These stylesheet definition should be here:
+**These stylesheet definition should be here:**
+
 h1 { }
+
 a { }
 
-// This stylesheet definition should be in the components directory:
+**This stylesheet definition should be in the components directory:**
+
 a.link-button { }
