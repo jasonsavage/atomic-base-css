@@ -6,7 +6,7 @@ under the applications directory and use tabs as a base class.
 
 Example:
 
-// These stylesheet definition should be here:
+**These stylesheet definition should be here:**
 
 .tabs { }
 
