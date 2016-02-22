@@ -1,14 +1,16 @@
-# atomic-base-css | components
+# components
 
-http://www.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/
+Styles that are global and ar generally used as base classes. For example, tabs can be used through out the application
+and generally look the same, but if in a certain component tabs are customized then add that customization to a file
+under the applications directory and use tabs as a base class.
 
-Now we need to start thinking about the relationships between these quarks, and so we start to introduce 
-aspects of BEM and OOCSS. In this system, I've called these modules "atoms" - universal abstractions, 
-such as the media or flag object. For example, we might include a partial that sets the default style 
-for buttons, so that we can plan for those styles to be extended and built upon.
+Example:
 
-The styles in an atom should almost never be attached to an HTML element itself; we might not be able to guarantee 
-what the markup will look like in the future. Specifying a class instead is always safer.
+// These stylesheet definition should be here:
+.tabs { }
+.button { }
+.button.primary { }
 
-In this way, atoms will save us from writing hundreds of lines of code and keep things relatively abstract. 
-Just as Brad suggests, this concept is powerful because atoms can be combined to form more complicated structures.
+// This stylesheet definition should be in the application directory:
+#lobby-players-list > .tabs { }
+#play-game-button > .button.primary { }
