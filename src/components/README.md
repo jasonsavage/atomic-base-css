@@ -12,5 +12,5 @@ Example:
 .button.primary { }
 
 // This stylesheet definition should be in the application directory:
-#lobby-players-list > .tabs { }
-#play-game-button > .button.primary { }
+\#lobby-players-list > .tabs { }
+\#play-game-button > .button.primary { }
