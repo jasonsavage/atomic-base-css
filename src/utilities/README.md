@@ -5,10 +5,14 @@ NOTE: Most of these styles are one liners and are allowed to use the !important 
 
 Example:
 
-// These stylesheet definition should be here:
+**These stylesheet definition should be here:**
+
 .m-0 { margin: 0px !important; }
+
 .txt-red { }
 
-// This stylesheet definition should be in the components directory:
+**This stylesheet definition should be in the components directory:**
+
 .form-control.error { }
+
 ul.styled-list { }
